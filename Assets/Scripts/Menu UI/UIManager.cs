@@ -5,11 +5,23 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    /*Add:
+     * from game to main menu area
+     * quit game button
+     * score UI
+     * in-game settings UI
+     * in-game start, pause buttons
+     * end game UI (will show score)
+    */
 
+    #region Main UI's
     public GameObject MainMenuUI;
     public GameObject PlayMenuUI;
     public GameObject SettingsMenuUI;
+    public GameObject PolygonMainMenuUI;
+    #endregion
 
+    #region Turn Toggles
     public GameObject Snap15;
     public GameObject Snap30;
     public GameObject Snap45;
@@ -24,17 +36,34 @@ public class UIManager : MonoBehaviour
 
     public GameObject SnapdegreeTogles;
     public GameObject SmoothDegreeTogles;
+    
 
     public GameObject snapTurnTogle;
     public GameObject smoothTurnTogle;
+    
 
     public GameObject snapTurnSelectedText;
     public GameObject smoothTurnSelectedText;
+    #endregion
 
+    #region Music Toggles
     public GameObject MusicOnOffTogle;
     public GameObject MusicVolumeSlider;
+    #endregion
+
+    #region Buttons
+    public GameObject toMainMenuButton;
+    public GameObject polygonReturnButton;
+    #endregion
 
     public GameObject PlayerController;
+    public GameObject XRRig;
+
+    #region Polygon Area
+    public GameObject polygonArea;
+
+    #endregion
+
 
 
     public void playButton()//when pressed play button
@@ -72,7 +101,9 @@ public class UIManager : MonoBehaviour
         //Summary: when Polygon button pressed, deactivate "Play Menu UI" then start The Game (Polygon).
 
         PlayMenuUI.SetActive(false);
-        //Activate Polygon Game area
+        polygonArea.SetActive(true);
+        XRRig.transform.position = new Vector3(60, 0, -10);//Change Location of Player XRRig (60, 0, -10) / (plane = 60, -1, 0 / scale = 8, 1, 4)
+
     }
 
     public void boxMachineButton()//when pressed "Box Machine" button (In Development)
@@ -205,9 +236,47 @@ public class UIManager : MonoBehaviour
         PlayerController.GetComponent<BNG.PlayerRotation>().SmoothTurnSpeed = 60;
     }
 
+    public void polygonSettingsButton()//when "Settings" button pressed in polygon area
+    {
+        //Summary: When pressed "Settings" button in polygon area from Polygon Main Menu, change location and size of the SettingsMenuUI.
 
+        PolygonMainMenuUI.SetActive(false);
+        SettingsMenuUI.transform.position = new Vector3(60, 1, -9);
+        SettingsMenuUI.transform.localScale = new Vector3(0.005f, 0.005f, 1);
+        SettingsMenuUI.SetActive(true);
 
+        toMainMenuButton.SetActive(false);
+        polygonReturnButton.SetActive(true);
+    }
 
+    public void PolygonReturnButton()//when "Return" button pressed in polygon area
+    {
+        //Summary: When pressed "Return" button in polygon area (SettingMenuUI) from Polygon area, activate Polygon Main Menu UI.
+
+        SettingsMenuUI.SetActive(false);
+        PolygonMainMenuUI.SetActive(true);
+    }
+
+    public void polygonToMainMenuButton()//when "Main Menu" button pressed in polygon area
+    {
+        //Summary: When pressed "Main Menu" button in polygon area from Polygon Main Menu, change location of the XRRig (To main area).
+
+        SettingsMenuUI.transform.position = new Vector3(0, 0, 0.23f);
+        SettingsMenuUI.transform.localScale = new Vector3(0.0018f, 0.0018f, 2);
+        toMainMenuButton.SetActive(true);
+        polygonReturnButton.SetActive(false);
+        XRRig.transform.position = new Vector3(0, 0, -2);
+        PlayMenuUI.SetActive(false);
+        MainMenuUI.SetActive(true);
+        polygonArea.SetActive(false);
+    }
+
+    public void polygonStartButton()//when "Start" button pressed in polygon area (In Development)
+    {
+        //Summary: When pressed "Start" button in polygon area from Polygon Main Menu, start the polygon game
+
+        //start the game
+    }
 
 
 }
