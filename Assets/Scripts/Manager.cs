@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIManager : MonoBehaviour
+public class Manager : MonoBehaviour
 {
+
     /*Add:
      * from game to main menu area
      * quit game button
@@ -12,13 +13,18 @@ public class UIManager : MonoBehaviour
      * in-game settings UI
      * in-game start, pause buttons
      * end game UI (will show score)
+     * Show score while in game
     */
+
+    #region All UI
+
 
     #region Main UI's
     public GameObject MainMenuUI;
     public GameObject PlayMenuUI;
     public GameObject SettingsMenuUI;
     public GameObject PolygonMainMenuUI;
+    public GameObject PolygonTimerUI;
     #endregion
 
     #region Turn Toggles
@@ -61,10 +67,22 @@ public class UIManager : MonoBehaviour
 
     #region Polygon Area
     public GameObject polygonArea;
-
+    //Timer
+    public Text polygonGameCountdownTimerText;
+    public int polygonGameCountdownValue;//Set in Editor
+    private int polygongameCountdownValue;//Used for script only (will be equal to "polygonGameCountdownValue")
+    //Targets
+    public GameObject sphereTarget;
+    //Guns
+    public GameObject GunRiffle;
+    public GameObject GunInfinite;
     #endregion
 
-
+    private void Start()
+    {
+        polygongameCountdownValue = polygonGameCountdownValue;
+        polygonGameCountdownTimerText.text = polygongameCountdownValue.ToString();
+    }
 
     public void playButton()//when pressed play button
     {
@@ -275,8 +293,43 @@ public class UIManager : MonoBehaviour
     {
         //Summary: When pressed "Start" button in polygon area from Polygon Main Menu, start the polygon game
 
-        //start the game
+        PolygonMainMenuUI.SetActive(false);
+        PolygonTimerUI.SetActive(true);
+        InvokeRepeating("polygonGameCountdownTime", 3, 1);//Function, wait, repeat value (Polygon Game Timer)
+        //Guns
+        GunInfinite.SetActive(true);
+        GunRiffle.SetActive(true);
+        //Targets
+        sphereTarget.SetActive(true);
+        
     }
+
+    private void polygonGameCountdownTime()//when Polygon Game started in polygon area (In Development)
+    {
+        //Summary: When Polygon Game started, activate target, score, timer etc. Stop when timer reach zero
+
+        polygongameCountdownValue -= 1;
+        polygonGameCountdownTimerText.text = polygongameCountdownValue.ToString();
+        if(polygongameCountdownValue <= 0)
+        {
+            CancelInvoke("polygonGameCountdownTime");
+            polygongameCountdownValue = polygonGameCountdownValue;
+            polygonGameCountdownTimerText.text = polygongameCountdownValue.ToString();
+            PolygonMainMenuUI.SetActive(true);
+            PolygonTimerUI.SetActive(false);
+            //disable all target, guns etc.
+            sphereTarget.SetActive(false);
+            GunRiffle.SetActive(false);
+            GunInfinite.SetActive(false);
+        }
+    }
+
+
+
+
+    #endregion
+
+
 
 
 }
