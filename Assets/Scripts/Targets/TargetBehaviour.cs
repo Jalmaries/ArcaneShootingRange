@@ -12,15 +12,17 @@ public class TargetBehaviour : MonoBehaviour
 
     public Ease targetMoveAnimation;
 
+    public Vector3 startPosition;
 
     private void Awake()
     {
         this.gameObject.transform.DOPath(path, duration, pathType, pathMode, 5, Color.red)
             .SetLoops(-1);
-
-
     }
 
-
+    private void OnDisable()
+    {
+        gameObject.transform.position = startPosition;
+    }
 
 }

@@ -2545,12 +2545,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
         type: 3}
+      propertyPath: ForceSlideBackOnLastShot
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
+        type: 3}
       propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
         type: 3}
       propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
@@ -2560,7 +2570,17 @@ PrefabInstance:
       objectReference: {fileID: 1823691282}
     - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
         type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 247495767}
+    - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
+        type: 3}
       propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
@@ -2570,12 +2590,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
         type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: gameStartWithFirstShot
+      objectReference: {fileID: 0}
+    - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
+        type: 3}
       propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: autoReload, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
         type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
+        type: 3}
       propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4567605641618450651, guid: 6e987ed47215b3a46af930a293e59f19,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6024261396410624979, guid: 6e987ed47215b3a46af930a293e59f19,
@@ -3347,6 +3382,41 @@ PrefabInstance:
         type: 3}
       propertyPath: AlwaysFireProjectile
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517550600736378645, guid: 197fc46cfdbc9a54f9cbaffbf44c4ec3,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517550600736378645, guid: 197fc46cfdbc9a54f9cbaffbf44c4ec3,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517550600736378645, guid: 197fc46cfdbc9a54f9cbaffbf44c4ec3,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 247495767}
+    - target: {fileID: 6517550600736378645, guid: 197fc46cfdbc9a54f9cbaffbf44c4ec3,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517550600736378645, guid: 197fc46cfdbc9a54f9cbaffbf44c4ec3,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: gameStartWithFirstShot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517550600736378645, guid: 197fc46cfdbc9a54f9cbaffbf44c4ec3,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Manager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517550600736378645, guid: 197fc46cfdbc9a54f9cbaffbf44c4ec3,
+        type: 3}
+      propertyPath: onShootEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 197fc46cfdbc9a54f9cbaffbf44c4ec3, type: 3}
@@ -4913,7 +4983,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1004147144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6540,6 +6610,7 @@ MonoBehaviour:
   - {x: 65, y: 1, z: -7}
   - {x: 60, y: 1, z: -7}
   targetMoveAnimation: 1
+  startPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1229300761
 GameObject:
   m_ObjectHideFlags: 0

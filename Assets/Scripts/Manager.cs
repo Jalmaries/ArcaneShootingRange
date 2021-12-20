@@ -7,13 +7,12 @@ public class Manager : MonoBehaviour
 {
 
     /*Add:
-     * from game to main menu area
      * quit game button
      * score UI
-     * in-game settings UI
      * in-game start, pause buttons
      * end game UI (will show score)
      * Show score while in game
+     * Game will start with first shot
     */
 
     #region All UI
@@ -76,6 +75,8 @@ public class Manager : MonoBehaviour
     //Guns
     public GameObject GunRiffle;
     public GameObject GunInfinite;
+
+    private bool gameStartShot = false;
     #endregion
 
     private void Start()
@@ -292,21 +293,29 @@ public class Manager : MonoBehaviour
     public void polygonStartButton()//when "Start" button pressed in polygon area (In Development)
     {
         //Summary: When pressed "Start" button in polygon area from Polygon Main Menu, start the polygon game
+        //Note: Game will start with first shot.
 
         PolygonMainMenuUI.SetActive(false);
         PolygonTimerUI.SetActive(true);
-        InvokeRepeating("polygonGameCountdownTime", 3, 1);//Function, wait, repeat value (Polygon Game Timer)
+        //InvokeRepeating("polygonGameCountdownTime", 3, 1);//Function, wait, repeat value (Polygon Game Timer)
+
         //Guns
         GunInfinite.SetActive(true);
+        GunInfinite.GetComponent<Rigidbody>().isKinematic = true;
+        GunInfinite.GetComponent<Rigidbody>().isKinematic = false;
         GunRiffle.SetActive(true);
-        //Targets
+        GunRiffle.GetComponent<Rigidbody>().isKinematic = true;
+        GunRiffle.GetComponent<Rigidbody>().isKinematic = false;
+        //reset riffle ammo and animation
+        //GunRiffle.GetComponent<BNG.RaycastWeapon>().InternalAmmo = 30;
+        //Targets (add all targets here)
         sphereTarget.SetActive(true);
         
     }
 
-    private void polygonGameCountdownTime()//when Polygon Game started in polygon area (In Development)
+    private void polygonGameCountdownTime()//when Polygon Game started in polygon area with first shot (In Development)
     {
-        //Summary: When Polygon Game started, activate target, score, timer etc. Stop when timer reach zero
+        //Summary: When Polygon Game started with first shot, activate score, timer etc. Stop when timer reach zero
 
         polygongameCountdownValue -= 1;
         polygonGameCountdownTimerText.text = polygongameCountdownValue.ToString();
@@ -315,20 +324,38 @@ public class Manager : MonoBehaviour
             CancelInvoke("polygonGameCountdownTime");
             polygongameCountdownValue = polygonGameCountdownValue;
             polygonGameCountdownTimerText.text = polygongameCountdownValue.ToString();
-            PolygonMainMenuUI.SetActive(true);
+            //PolygonMainMenuUI.SetActive(true);
+            Invoke("activateGameMenuUI", 2);//Calling 2 sec later to prevent accident cliks on UI
             PolygonTimerUI.SetActive(false);
-            //disable all target, guns etc.
+            //disable all target, guns etc. and reset their position
             sphereTarget.SetActive(false);
+            //targets will return start position from their script
             GunRiffle.SetActive(false);
+            GunRiffle.transform.position = new Vector3(59.5f, -0.2f, -9);
             GunInfinite.SetActive(false);
+            GunInfinite.transform.position = new Vector3(60.5f, -0.2f, -9);
+            //
+            gameStartShot = false;
         }
     }
 
 
-
-
     #endregion
 
+
+    public void gameStartWithFirstShot()//Polygon Game will starts in polygon area with first shot
+    {
+        if (gameStartShot == false)
+        {
+            InvokeRepeating("polygonGameCountdownTime", 0, 1);//Function, wait, repeat value (Polygon Game Timer)
+        }
+        gameStartShot = true;
+    }
+
+    private void activateGameMenuUI()//called from "polygonCountdownTime" when Polygon Game ends (x second later)
+    {
+        PolygonMainMenuUI.SetActive(true);
+    }
 
 
 
