@@ -8,11 +8,10 @@ public class Manager : MonoBehaviour
 
     /*Add:
      * quit game button
-     * score UI
      * in-game start, pause buttons
      * end game UI (will show score)
-     * Show score while in game
-     * Game will start with first shot
+     * Show score while in game +
+     * Bug Solving: Reset every (or necessary) values on app-quit or start to prevent bugs.
     */
 
     #region All UI
@@ -24,6 +23,7 @@ public class Manager : MonoBehaviour
     public GameObject SettingsMenuUI;
     public GameObject PolygonMainMenuUI;
     public GameObject PolygonTimerUI;
+    public GameObject ScoreUI;
     #endregion
 
     #region Turn Toggles
@@ -79,10 +79,22 @@ public class Manager : MonoBehaviour
     private bool gameStartShot = false;
     #endregion
 
+    //Score Manager
+    private int SavedScore;//Save score. Will be = to "highScore" when quitting the game. After reopenning the game, "highScore" will = to this.
+    public int gameScore = 0;//Will increase while playing. Always return 0 when quting or restarting the polygon game.
+    public int highScore;//High score. Will be shown in display as high score. Will be saved when quiting or finisihng the game.
+    public Text GameScoreText;
+    public Text highScoreText;
+
     private void Start()
     {
+        //Time
         polygongameCountdownValue = polygonGameCountdownValue;
         polygonGameCountdownTimerText.text = polygongameCountdownValue.ToString();
+        //Score
+        highScore = SavedScore;//Return saved High Score
+        GameScoreText.text = gameScore.ToString();
+        highScoreText.text = highScore.ToString();
     }
 
     public void playButton()//when pressed play button
@@ -104,6 +116,12 @@ public class Manager : MonoBehaviour
     public void creditsButton()//when pressed credits button (In Development!)
     {
         //Summary: when credits button pressed, deactivate "Main Menu UI" then activate "Credits Menu UI" (or screen).
+    }
+
+    public void quitButton()
+    {
+        //Summar: Quit from the app
+        Application.Quit();
     }
 
     public void backToMainMenuButton()//when pressed "Main Menu" button
@@ -335,7 +353,10 @@ public class Manager : MonoBehaviour
             GunInfinite.SetActive(false);
             GunInfinite.transform.position = new Vector3(60.5f, -0.2f, -9);
             //
-            gameStartShot = false;
+            gameStartShot = false;//Reset first shot - game start value for next game
+            //Score
+            gameScore = 0;//Reset "gameScoer" when game finished
+            GameScoreText.text = gameScore.ToString();//Reset Score text when game finished
         }
     }
 
@@ -355,6 +376,14 @@ public class Manager : MonoBehaviour
     private void activateGameMenuUI()//called from "polygonCountdownTime" when Polygon Game ends (x second later)
     {
         PolygonMainMenuUI.SetActive(true);
+    }
+
+    //Score
+    private void OnApplicationQuit()
+    {
+        SavedScore = highScore;//Save high score
+        gameScore = 0;//To prevent buggs. (If player quits the app while in-game, values must reset for next game)
+        gameStartShot = false;//To prevent buggs. (If player quits the app while in-game, values must reset for next game)
     }
 
 
