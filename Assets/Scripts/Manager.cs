@@ -7,10 +7,9 @@ public class Manager : MonoBehaviour
 {
 
     /*Add:
-     * quit game button
      * in-game start, pause buttons
      * end game UI (will show score)
-     * Show score while in game +
+     * High score system (Bugged)
      * Bug Solving: Reset every (or necessary) values on app-quit or start to prevent bugs.
     */
 
@@ -80,7 +79,7 @@ public class Manager : MonoBehaviour
     #endregion
 
     //Score Manager
-    private int SavedScore;//Save score. Will be = to "highScore" when quitting the game. After reopenning the game, "highScore" will = to this.
+    //Playerprefs for save High Score value
     public int gameScore = 0;//Will increase while playing. Always return 0 when quting or restarting the polygon game.
     public int highScore;//High score. Will be shown in display as high score. Will be saved when quiting or finisihng the game.
     public Text GameScoreText;
@@ -92,9 +91,19 @@ public class Manager : MonoBehaviour
         polygongameCountdownValue = polygonGameCountdownValue;
         polygonGameCountdownTimerText.text = polygongameCountdownValue.ToString();
         //Score
-        highScore = SavedScore;//Return saved High Score
+        if (PlayerPrefs.HasKey("High_Score"))
+        {
+            highScore = PlayerPrefs.GetInt("High_Score");
+            highScoreText.text = PlayerPrefs.GetInt("High_Score").ToString();
+        }
+        else
+        {
+            PlayerPrefs.SetInt("High_Score", 0);
+            highScoreText.text = PlayerPrefs.GetInt("High_Score").ToString();
+        }
+        
         GameScoreText.text = gameScore.ToString();
-        highScoreText.text = highScore.ToString();
+        //highScoreText.text = highScore.ToString();
     }
 
     public void playButton()//when pressed play button
@@ -357,6 +366,7 @@ public class Manager : MonoBehaviour
             //Score
             gameScore = 0;//Reset "gameScoer" when game finished
             GameScoreText.text = gameScore.ToString();//Reset Score text when game finished
+            PlayerPrefs.SetInt("High_Score", highScore);
         }
     }
 
@@ -381,11 +391,22 @@ public class Manager : MonoBehaviour
     //Score
     private void OnApplicationQuit()
     {
-        SavedScore = highScore;//Save high score
         gameScore = 0;//To prevent buggs. (If player quits the app while in-game, values must reset for next game)
         gameStartShot = false;//To prevent buggs. (If player quits the app while in-game, values must reset for next game)
+        PlayerPrefs.SetInt("High_Score", highScore);
+        Debug.Log(highScore);
+        Debug.Log(PlayerPrefs.GetInt("High_Score"));
     }
 
 
+    //(For Debug) Reset High Score
+    public void resetHighScoreButton()
+    {
+        highScore = 0;
+        highScoreText.text = highScore.ToString();
+        PlayerPrefs.SetInt("High_Score", highScore);
+        Debug.Log(highScore);
+        Debug.Log(PlayerPrefs.GetInt("High_Score"));
+    }
 
 }
