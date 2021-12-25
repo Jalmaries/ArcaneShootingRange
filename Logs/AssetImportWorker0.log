@@ -1,636 +1,201 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19044.1415; Version 2009; 64bit' Language: 'tr' Physical Memory: 16318 MB
+OS: 'Windows 10 Home Single Language; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 16240 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-E:\Unity Editors\2021.1.0f1\Editor\Unity.exe
+D:\Unity\2021.1.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Github Projects/Unity Projects/ArcaneShootingRange
+D:/GitHub/ArcaneShootingRange
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61666
-Successfully changed project path to: E:/Github Projects/Unity Projects/ArcaneShootingRange
-E:/Github Projects/Unity Projects/ArcaneShootingRange
+52190
+Successfully changed project path to: D:/GitHub/ArcaneShootingRange
+D:/GitHub/ArcaneShootingRange
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 149.23 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 1.30 ms.
+Refreshing native plugins compatible for Editor in 145.92 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.11 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
-[Subsystems] Discovering subsystems at path E:/Unity Editors/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Github Projects/Unity Projects/ArcaneShootingRange/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/ArcaneShootingRange/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
     Vendor:   NVIDIA
-    VRAM:     6052 MB
-    Driver:   30.0.14.9649
+    VRAM:     5980 MB
+    Driver:   30.0.14.9709
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'E:/Unity Editors/2021.1.0f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'E:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Mono path[0] = 'D:/Unity/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity Editors/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001545 seconds.
+Register platform support module: D:/Unity/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001011 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 140.08 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 143.28 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.001 seconds
+- Completed reload, in  1.515 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.363412 seconds.
+Registered in 0.008403 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 186.42 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 103.23 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GitHub\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.934 seconds
+- Completed reload, in  1.225 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 2.90 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 4762 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.5 MB.
-System memory in use after: 186.6 MB.
+System memory in use before: 185.1 MB.
+System memory in use after: 185.2 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 5220.
-Total: 6.481300 ms (FindLiveObjects: 0.567900 ms CreateObjectMapping: 0.226600 ms MarkObjects: 5.568000 ms  DeleteObjects: 0.117000 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 5214.
+Total: 2.633100 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.206500 ms MarkObjects: 2.049300 ms  DeleteObjects: 0.067400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Score/TargetScore.cs
-  artifactKey: Guid(782855c568064514995e5b4145789fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Score/TargetScore.cs using Guid(782855c568064514995e5b4145789fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5335646394b15a3d4e4ffed36a2430fb') in 0.038160 seconds 
+  path: Assets/Düzenlenecekler/Targets/Assasin
+  artifactKey: Guid(07e1ee2254b3f564a86dfe9f36a8a260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Assasin using Guid(07e1ee2254b3f564a86dfe9f36a8a260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b663213a0e20f3ad5ce494aaea8cf5') in 0.010805 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006986 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.133 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.3 MB.
-System memory in use after: 180.6 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5224.
-Total: 3.725300 ms (FindLiveObjects: 0.505200 ms CreateObjectMapping: 0.138500 ms MarkObjects: 3.049200 ms  DeleteObjects: 0.030900 ms)
-
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Düzenlenecekler/Targets/Assasin/Assasin.fbx
+  artifactKey: Guid(06c0a59266a46464abd2d62ad722afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.fbx using Guid(06c0a59266a46464abd2d62ad722afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b385446d56956fea6d020087faf1171') in 0.208189 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006971 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.192 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.4 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5228.
-Total: 3.969700 ms (FindLiveObjects: 0.490200 ms CreateObjectMapping: 0.144800 ms MarkObjects: 3.301100 ms  DeleteObjects: 0.032300 ms)
-
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Düzenlenecekler/Targets
+  artifactKey: Guid(c77879df7832bfd4283dac810532643d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets using Guid(c77879df7832bfd4283dac810532643d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a05e7f7421404975dd745e526f56d8') in 0.007548 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006857 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.147 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.5 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5232.
-Total: 3.771300 ms (FindLiveObjects: 0.500000 ms CreateObjectMapping: 0.125100 ms MarkObjects: 3.113800 ms  DeleteObjects: 0.031300 ms)
-
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Düzenlenecekler
+  artifactKey: Guid(3067e896c05e4c54ab7e2aede84b334f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler using Guid(3067e896c05e4c54ab7e2aede84b334f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2178b1f464aa27812cb0e29c9a2ac079') in 0.010759 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008191 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.334 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.31 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.5 MB.
-System memory in use after: 180.8 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5236.
-Total: 3.649800 ms (FindLiveObjects: 0.475900 ms CreateObjectMapping: 0.153600 ms MarkObjects: 2.971300 ms  DeleteObjects: 0.047700 ms)
-
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Düzenlenecekler/Targets/Assasin/Assasin.png
+  artifactKey: Guid(098b4993c9d17c84cbcfae62edf3c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.png using Guid(098b4993c9d17c84cbcfae62edf3c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da408375be7228dcc1f5f87f44ec0a27') in 0.022972 seconds 
 ========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 7.73 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.8 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5236.
-Total: 4.501800 ms (FindLiveObjects: 0.575800 ms CreateObjectMapping: 0.147800 ms MarkObjects: 3.738600 ms  DeleteObjects: 0.037900 ms)
-
+Received Import Request.
+  Time since last request: 8.850413 seconds.
+  path: Assets/Düzenlenecekler/Targets/Assasin/Assasin.mat
+  artifactKey: Guid(8a38c637911ceda45a512095c6351189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.mat using Guid(8a38c637911ceda45a512095c6351189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fb6b67f9ab0ee708eba372446f4f3c') in 0.022801 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.312693 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.07 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.313 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.3 MB.
-System memory in use after: 180.6 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5240.
-Total: 3.863800 ms (FindLiveObjects: 0.692400 ms CreateObjectMapping: 0.194300 ms MarkObjects: 2.945100 ms  DeleteObjects: 0.030600 ms)
-
+Received Import Request.
+  Time since last request: 42.525131 seconds.
+  path: Assets/Düzenlenecekler/Targets/Assasin/Materials
+  artifactKey: Guid(43767eda469567041a6f244adbdfa1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Assasin/Materials using Guid(43767eda469567041a6f244adbdfa1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb71ede8005392ae9dc742d889b140c') in 0.008286 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.213980 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.37 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.464 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.5 MB.
-System memory in use after: 180.8 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5244.
-Total: 5.218600 ms (FindLiveObjects: 0.572900 ms CreateObjectMapping: 0.140400 ms MarkObjects: 4.461900 ms  DeleteObjects: 0.041200 ms)
-
+Received Import Request.
+  Time since last request: 3.026991 seconds.
+  path: Assets/Düzenlenecekler/Targets/Assasin/Materials/Assasin.mat
+  artifactKey: Guid(314629298d9f51b4abe45e9e3dfac53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Assasin/Materials/Assasin.mat using Guid(314629298d9f51b4abe45e9e3dfac53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb46cd567fdfe41f07825e7f3c434a30') in 0.015551 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008590 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.33 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.175 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.5 MB.
-System memory in use after: 180.8 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5248.
-Total: 3.695900 ms (FindLiveObjects: 0.526200 ms CreateObjectMapping: 0.165000 ms MarkObjects: 2.971200 ms  DeleteObjects: 0.031900 ms)
-
+Received Import Request.
+  Time since last request: 75.851827 seconds.
+  path: Assets/Düzenlenecekler/Weapon
+  artifactKey: Guid(782c85349cc9b3a4bae9f72edf983604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon using Guid(782c85349cc9b3a4bae9f72edf983604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402e6f5896f14ede825a3fb488980396') in 0.008861 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006923 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.132 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.82 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.8 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5252.
-Total: 3.722200 ms (FindLiveObjects: 0.491300 ms CreateObjectMapping: 0.141800 ms MarkObjects: 3.062200 ms  DeleteObjects: 0.025700 ms)
-
+Received Import Request.
+  Time since last request: 0.048974 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_BaseC.png
+  artifactKey: Guid(86c3ca1e1771be44b8b2033623183be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_BaseC.png using Guid(86c3ca1e1771be44b8b2033623183be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ebfbe7680bbd8613c2cafa17b5ef0f') in 0.015637 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009408 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.449 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.63 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.8 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5256.
-Total: 5.788200 ms (FindLiveObjects: 0.622800 ms CreateObjectMapping: 0.191700 ms MarkObjects: 4.925600 ms  DeleteObjects: 0.045800 ms)
-
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_Metal.png
+  artifactKey: Guid(7bd1b24c22955a94fb8bc95ac12e2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_Metal.png using Guid(7bd1b24c22955a94fb8bc95ac12e2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8922b96135a39b959880466bf0a85e37') in 0.019127 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007166 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.242 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.68 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.4 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5260.
-Total: 6.731700 ms (FindLiveObjects: 1.450500 ms CreateObjectMapping: 0.507700 ms MarkObjects: 4.743600 ms  DeleteObjects: 0.028300 ms)
-
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_BaseColo.png
+  artifactKey: Guid(858eff01557394d458786f051261f845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_BaseColo.png using Guid(858eff01557394d458786f051261f845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87dfb45de680c922c7e2d7022068001') in 0.166504 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009955 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.218 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.4 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5264.
-Total: 4.913400 ms (FindLiveObjects: 0.918200 ms CreateObjectMapping: 0.459400 ms MarkObjects: 3.500800 ms  DeleteObjects: 0.033000 ms)
-
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_Metallic.png
+  artifactKey: Guid(68cf573cbb1d77b44a1fa7a385f07b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_Metallic.png using Guid(68cf573cbb1d77b44a1fa7a385f07b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ae284a1949b223e01ba52cd05c6596') in 0.016918 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007081 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.169 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.4 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5268.
-Total: 3.686600 ms (FindLiveObjects: 0.480200 ms CreateObjectMapping: 0.124500 ms MarkObjects: 3.054300 ms  DeleteObjects: 0.026500 ms)
-
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.fbx
+  artifactKey: Guid(a6a85ca39f2f2fc4db5996badc719011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.fbx using Guid(a6a85ca39f2f2fc4db5996badc719011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7966ef91a886b8c4f59184f6a41a7a64') in 0.420066 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007337 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.223 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5272.
-Total: 5.465300 ms (FindLiveObjects: 0.824400 ms CreateObjectMapping: 0.710400 ms MarkObjects: 3.895400 ms  DeleteObjects: 0.033600 ms)
-
+Received Import Request.
+  Time since last request: 28.196638 seconds.
+  path: Assets/Düzenlenecekler/Weapon/GunDefault.mat
+  artifactKey: Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/GunDefault.mat using Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2357b37d929e9cbcaa6cdffe11746ac') in 0.013092 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010507 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.490 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5276.
-Total: 5.548500 ms (FindLiveObjects: 0.691500 ms CreateObjectMapping: 0.509500 ms MarkObjects: 4.314900 ms  DeleteObjects: 0.030400 ms)
-
+Received Import Request.
+  Time since last request: 5.914853 seconds.
+  path: Assets/Düzenlenecekler/Weapon/GunMetal.mat
+  artifactKey: Guid(e19caa1accddd914b955483e371b9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/GunMetal.mat using Guid(e19caa1accddd914b955483e371b9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38081c508bfe80116ff1ac78acecd7fc') in 0.262261 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007381 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.55 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.141 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5280.
-Total: 3.657400 ms (FindLiveObjects: 0.546500 ms CreateObjectMapping: 0.144400 ms MarkObjects: 2.931500 ms  DeleteObjects: 0.033900 ms)
-
+Received Import Request.
+  Time since last request: 89.325700 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab
+  artifactKey: Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d04826d2d9232e08ae984034005f356') in 0.023883 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007494 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.20 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.482 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.34 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.6 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5284.
-Total: 4.476300 ms (FindLiveObjects: 0.604100 ms CreateObjectMapping: 0.182100 ms MarkObjects: 3.645700 ms  DeleteObjects: 0.042600 ms)
-
+Received Import Request.
+  Time since last request: 21.446921 seconds.
+  path: Assets/Düzenlenecekler/Weapon/GunDefault.mat
+  artifactKey: Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/GunDefault.mat using Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc4b4eb9850b576af207651bc1b7d88') in 0.036491 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006793 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.39 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.5 MB.
-System memory in use after: 180.7 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5288.
-Total: 4.401200 ms (FindLiveObjects: 0.564000 ms CreateObjectMapping: 0.158100 ms MarkObjects: 3.640400 ms  DeleteObjects: 0.037200 ms)
-
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Düzenlenecekler/Weapon/GunMetal.mat
+  artifactKey: Guid(e19caa1accddd914b955483e371b9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/GunMetal.mat using Guid(e19caa1accddd914b955483e371b9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5687bd087efca2376dc2e05f7b9d83b6') in 0.017607 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008038 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.86 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.384 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.7 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5292.
-Total: 4.665400 ms (FindLiveObjects: 0.557100 ms CreateObjectMapping: 0.149100 ms MarkObjects: 3.923000 ms  DeleteObjects: 0.034700 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 6.34 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5292.
-Total: 3.155000 ms (FindLiveObjects: 0.461500 ms CreateObjectMapping: 0.122600 ms MarkObjects: 2.546700 ms  DeleteObjects: 0.023400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.041516 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.06 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.321 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 2.40 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
-Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 180.7 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5296.
-Total: 6.198200 ms (FindLiveObjects: 0.847700 ms CreateObjectMapping: 0.793400 ms MarkObjects: 4.509600 ms  DeleteObjects: 0.045200 ms)
-
-========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 7.02 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 5296.
-Total: 5.875100 ms (FindLiveObjects: 0.832200 ms CreateObjectMapping: 0.486100 ms MarkObjects: 4.520800 ms  DeleteObjects: 0.033900 ms)
-
+Received Import Request.
+  Time since last request: 84.475919 seconds.
+  path: Assets/Düzenlenecekler/Targets/Assasin/Assasin.fbx
+  artifactKey: Guid(06c0a59266a46464abd2d62ad722afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.fbx using Guid(06c0a59266a46464abd2d62ad722afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d969a702af4ebc558536690d7812e35') in 0.034286 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
