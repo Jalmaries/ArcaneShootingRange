@@ -71,6 +71,10 @@ public class Manager : MonoBehaviour
     private int polygongameCountdownValue;//Used for script only (will be equal to "polygonGameCountdownValue")
     //Targets
     public GameObject sphereTarget;
+    public GameObject Assassin;
+    public GameObject Bomber;
+    public GameObject LongGuy;
+    public GameObject Skeleton;
     //Guns
     //public GameObject GunRiffle;
     public GameObject PowdersPistol;
@@ -331,18 +335,16 @@ public class Manager : MonoBehaviour
         PowdersPistol.GetComponent<Rigidbody>().isKinematic = true;
         PowdersPistol.GetComponent<Rigidbody>().isKinematic = false;
 
-        /*
-        GunRiffle.SetActive(true);
-        GunRiffle.GetComponent<Rigidbody>().isKinematic = true;
-        GunRiffle.GetComponent<Rigidbody>().isKinematic = false;
-        */
 
         //reset riffle ammo and animation
         //GunRiffle.GetComponent<BNG.RaycastWeapon>().InternalAmmo = 30;
 
         //Targets (add all targets here)
         sphereTarget.SetActive(true);
-        
+        Assassin.SetActive(true);
+        Bomber.SetActive(true);
+        LongGuy.SetActive(true);
+        Skeleton.SetActive(true);
     }
 
     private void polygonGameCountdownTime()//when Polygon Game started in polygon area with first shot (In Development)
@@ -361,11 +363,11 @@ public class Manager : MonoBehaviour
             PolygonTimerUI.SetActive(false);
             //disable all target, guns etc. and reset their position
             sphereTarget.SetActive(false);
+            Assassin.SetActive(false);
+            Bomber.SetActive(false);
+            LongGuy.SetActive(false);
+            Skeleton.SetActive(false);
             //targets will return start position from their script
-            /*
-            GunRiffle.SetActive(false);
-            GunRiffle.transform.position = new Vector3(59.5f, -0.2f, -9);
-            */
             PowdersPistol.SetActive(false);
             PowdersPistol.transform.position = new Vector3(60.5f, -0.2f, -9);
             //
@@ -416,8 +418,4 @@ public class Manager : MonoBehaviour
         Debug.Log(PlayerPrefs.GetInt("High_Score"));
     }
 
-    private void Update()
-    {
-        //Debug.Log(gameScore);
-    }
 }

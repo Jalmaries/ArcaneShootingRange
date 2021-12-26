@@ -1,201 +1,606 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 22000.376; Version 2009; 64bit' Language: 'en' Physical Memory: 16240 MB
+OS: 'Windows 10 Pro; OS build 19044.1415; Version 2009; 64bit' Language: 'tr' Physical Memory: 16318 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2021.1.0f1\Editor\Unity.exe
+E:\Unity Editors\2021.1.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GitHub/ArcaneShootingRange
+E:/Github Projects/Unity Projects/ArcaneShootingRange
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52190
-Successfully changed project path to: D:/GitHub/ArcaneShootingRange
-D:/GitHub/ArcaneShootingRange
+54464
+Successfully changed project path to: E:/Github Projects/Unity Projects/ArcaneShootingRange
+E:/Github Projects/Unity Projects/ArcaneShootingRange
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 145.92 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 1.11 ms.
+Refreshing native plugins compatible for Editor in 145.51 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 1.25 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
-[Subsystems] Discovering subsystems at path D:/Unity/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub/ArcaneShootingRange/Assets
+[Subsystems] Discovering subsystems at path E:/Unity Editors/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Github Projects/Unity Projects/ArcaneShootingRange/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   NVIDIA
-    VRAM:     5980 MB
-    Driver:   30.0.14.9709
+    VRAM:     6052 MB
+    Driver:   30.0.14.9649
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'D:/Unity/2021.1.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Mono path[0] = 'E:/Unity Editors/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001011 seconds.
+Register platform support module: E:/Unity Editors/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001331 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 143.28 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 143.96 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.515 seconds
+- Completed reload, in  1.857 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008403 seconds.
+Registered in 0.007133 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 103.23 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 140.20 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GitHub\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.225 seconds
+- Completed reload, in  1.451 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 4762 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.1 MB.
-System memory in use after: 185.2 MB.
+System memory in use before: 186.6 MB.
+System memory in use after: 186.6 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 5214.
-Total: 2.633100 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.206500 ms MarkObjects: 2.049300 ms  DeleteObjects: 0.067400 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 5220.
+Total: 4.013000 ms (FindLiveObjects: 0.486800 ms CreateObjectMapping: 0.227800 ms MarkObjects: 3.203700 ms  DeleteObjects: 0.093000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Düzenlenecekler/Targets/Assasin
-  artifactKey: Guid(07e1ee2254b3f564a86dfe9f36a8a260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Targets/Assasin using Guid(07e1ee2254b3f564a86dfe9f36a8a260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b663213a0e20f3ad5ce494aaea8cf5') in 0.010805 seconds 
+  path: Assets/Gun Model and Material/Materials/archtronic.mat
+  artifactKey: Guid(c5e4492a87d3c204193ad2819a3788c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun Model and Material/Materials/archtronic.mat using Guid(c5e4492a87d3c204193ad2819a3788c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972507630debb6090a881c04920b456') in 0.934576 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Düzenlenecekler/Targets/Assasin/Assasin.fbx
-  artifactKey: Guid(06c0a59266a46464abd2d62ad722afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.fbx using Guid(06c0a59266a46464abd2d62ad722afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b385446d56956fea6d020087faf1171') in 0.208189 seconds 
+  Time since last request: 7.499958 seconds.
+  path: Assets/Gun Model and Material/Textures/archtronic_Normal.png
+  artifactKey: Guid(2fe40df64f8d2864c9b5f2db9d240227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gun Model and Material/Textures/archtronic_Normal.png using Guid(2fe40df64f8d2864c9b5f2db9d240227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82978e3a95eac7326ce032dca517da6') in 0.090667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.130087 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_BaseC.png
+  artifactKey: Guid(86c3ca1e1771be44b8b2033623183be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_BaseC.png using Guid(86c3ca1e1771be44b8b2033623183be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15024fca5581f04b6a878980ffb31dad') in 0.011695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Düzenlenecekler/Weapon/GunDefault.mat
+  artifactKey: Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/GunDefault.mat using Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c775593a4d900a59c3bd18ea55e710') in 0.062518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_Metal.png
+  artifactKey: Guid(7bd1b24c22955a94fb8bc95ac12e2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_Metal.png using Guid(7bd1b24c22955a94fb8bc95ac12e2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f1781b2ecc5408cf97a9788e67cb15') in 0.011085 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000289 seconds.
-  path: Assets/Düzenlenecekler/Targets
-  artifactKey: Guid(c77879df7832bfd4283dac810532643d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Targets using Guid(c77879df7832bfd4283dac810532643d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a05e7f7421404975dd745e526f56d8') in 0.007548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Düzenlenecekler
-  artifactKey: Guid(3067e896c05e4c54ab7e2aede84b334f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler using Guid(3067e896c05e4c54ab7e2aede84b334f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2178b1f464aa27812cb0e29c9a2ac079') in 0.010759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Düzenlenecekler/Targets/Assasin/Assasin.png
-  artifactKey: Guid(098b4993c9d17c84cbcfae62edf3c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.png using Guid(098b4993c9d17c84cbcfae62edf3c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da408375be7228dcc1f5f87f44ec0a27') in 0.022972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.850413 seconds.
-  path: Assets/Düzenlenecekler/Targets/Assasin/Assasin.mat
-  artifactKey: Guid(8a38c637911ceda45a512095c6351189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.mat using Guid(8a38c637911ceda45a512095c6351189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fb6b67f9ab0ee708eba372446f4f3c') in 0.022801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.525131 seconds.
-  path: Assets/Düzenlenecekler/Targets/Assasin/Materials
-  artifactKey: Guid(43767eda469567041a6f244adbdfa1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Targets/Assasin/Materials using Guid(43767eda469567041a6f244adbdfa1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb71ede8005392ae9dc742d889b140c') in 0.008286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.026991 seconds.
-  path: Assets/Düzenlenecekler/Targets/Assasin/Materials/Assasin.mat
-  artifactKey: Guid(314629298d9f51b4abe45e9e3dfac53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Targets/Assasin/Materials/Assasin.mat using Guid(314629298d9f51b4abe45e9e3dfac53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb46cd567fdfe41f07825e7f3c434a30') in 0.015551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 75.851827 seconds.
-  path: Assets/Düzenlenecekler/Weapon
-  artifactKey: Guid(782c85349cc9b3a4bae9f72edf983604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon using Guid(782c85349cc9b3a4bae9f72edf983604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402e6f5896f14ede825a3fb488980396') in 0.008861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048974 seconds.
-  path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_BaseC.png
-  artifactKey: Guid(86c3ca1e1771be44b8b2033623183be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_BaseC.png using Guid(86c3ca1e1771be44b8b2033623183be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ebfbe7680bbd8613c2cafa17b5ef0f') in 0.015637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_Metal.png
-  artifactKey: Guid(7bd1b24c22955a94fb8bc95ac12e2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Metal_peice_fix2_Material_Metal.png using Guid(7bd1b24c22955a94fb8bc95ac12e2c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8922b96135a39b959880466bf0a85e37') in 0.019127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
   path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_BaseColo.png
   artifactKey: Guid(858eff01557394d458786f051261f845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_BaseColo.png using Guid(858eff01557394d458786f051261f845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87dfb45de680c922c7e2d7022068001') in 0.166504 seconds 
+Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_BaseColo.png using Guid(858eff01557394d458786f051261f845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3773486e746056703e3d2cdecccd82d7') in 0.010323 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
+  Time since last request: 0.000323 seconds.
   path: Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_Metallic.png
   artifactKey: Guid(68cf573cbb1d77b44a1fa7a385f07b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_Metallic.png using Guid(68cf573cbb1d77b44a1fa7a385f07b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ae284a1949b223e01ba52cd05c6596') in 0.016918 seconds 
+Start importing Assets/Düzenlenecekler/Weapon/Arcane_Gun_Take_2_DefaultMaterial_Metallic.png using Guid(68cf573cbb1d77b44a1fa7a385f07b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65aeb3dbbb7d2845eca4c5133da6fd08') in 0.010809 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.fbx
-  artifactKey: Guid(a6a85ca39f2f2fc4db5996badc719011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.fbx using Guid(a6a85ca39f2f2fc4db5996badc719011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7966ef91a886b8c4f59184f6a41a7a64') in 0.420066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.196638 seconds.
-  path: Assets/Düzenlenecekler/Weapon/GunDefault.mat
-  artifactKey: Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/GunDefault.mat using Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2357b37d929e9cbcaa6cdffe11746ac') in 0.013092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.914853 seconds.
+  Time since last request: 0.000261 seconds.
   path: Assets/Düzenlenecekler/Weapon/GunMetal.mat
   artifactKey: Guid(e19caa1accddd914b955483e371b9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/GunMetal.mat using Guid(e19caa1accddd914b955483e371b9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38081c508bfe80116ff1ac78acecd7fc') in 0.262261 seconds 
+Start importing Assets/Düzenlenecekler/Weapon/GunMetal.mat using Guid(e19caa1accddd914b955483e371b9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663342278498aaa2020a58c1d86f0d82') in 0.015170 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.325700 seconds.
+  Time since last request: 0.000377 seconds.
   path: Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab
   artifactKey: Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d04826d2d9232e08ae984034005f356') in 0.023883 seconds 
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af6bd263d0ef6d798fb83384aa7af58') in 0.088686 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.446921 seconds.
-  path: Assets/Düzenlenecekler/Weapon/GunDefault.mat
-  artifactKey: Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/GunDefault.mat using Guid(c53333e989ee21142846ad61208b8edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc4b4eb9850b576af207651bc1b7d88') in 0.036491 seconds 
+  Time since last request: 0.000331 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.fbx
+  artifactKey: Guid(a6a85ca39f2f2fc4db5996badc719011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.fbx using Guid(a6a85ca39f2f2fc4db5996badc719011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb58c147e87c48e3a25c3fa2efcead10') in 0.123212 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Düzenlenecekler/Weapon/GunMetal.mat
-  artifactKey: Guid(e19caa1accddd914b955483e371b9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Weapon/GunMetal.mat using Guid(e19caa1accddd914b955483e371b9364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5687bd087efca2376dc2e05f7b9d83b6') in 0.017607 seconds 
+  Time since last request: 13.702578 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab
+  artifactKey: Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c368728d24ddf6cd60f397702bdfb6c') in 0.032721 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.475919 seconds.
+  Time since last request: 0.940325 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab
+  artifactKey: Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93b6c6799953868eb50c6210d2ae5da') in 0.021555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.717199 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab
+  artifactKey: Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a470ff40529f30412d13076d8da193f') in 0.024244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.959377 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab
+  artifactKey: Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1237c38a32e4f1de0a9477b2461d71') in 0.020216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.299727 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab
+  artifactKey: Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498e8b91d0e5ef1a7490ae0df0f95abe') in 0.019719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.590602 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab
+  artifactKey: Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359a2307510fff7ce8a50ff7036a67f0') in 0.022385 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011198 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.418 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4674 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.7 MB.
+System memory in use after: 200.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5345.
+Total: 5.277800 ms (FindLiveObjects: 0.810200 ms CreateObjectMapping: 0.728600 ms MarkObjects: 3.697800 ms  DeleteObjects: 0.039600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.270 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.6 MB.
+System memory in use after: 200.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5349.
+Total: 3.700700 ms (FindLiveObjects: 0.672600 ms CreateObjectMapping: 0.135500 ms MarkObjects: 2.862400 ms  DeleteObjects: 0.028800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.6 MB.
+System memory in use after: 200.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5353.
+Total: 4.848100 ms (FindLiveObjects: 0.768700 ms CreateObjectMapping: 0.128900 ms MarkObjects: 3.906400 ms  DeleteObjects: 0.041900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.7 MB.
+System memory in use after: 200.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5357.
+Total: 4.884100 ms (FindLiveObjects: 0.533200 ms CreateObjectMapping: 0.176600 ms MarkObjects: 4.138100 ms  DeleteObjects: 0.034900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1708.546607 seconds.
+  path: Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab
+  artifactKey: Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Weapon/Powders Pistol.prefab using Guid(a4174982a20e3224aae527c247ab30aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7594c493510a47c44557277cac5db725') in 0.058240 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.405 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.5 MB.
+System memory in use after: 200.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5362.
+Total: 4.620400 ms (FindLiveObjects: 0.558000 ms CreateObjectMapping: 0.207500 ms MarkObjects: 3.820100 ms  DeleteObjects: 0.033300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.631191 seconds.
+  path: Assets/Scripts/Manager.cs
+  artifactKey: Guid(0171bd9d052568045a9fb0343c76dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Manager.cs using Guid(0171bd9d052568045a9fb0343c76dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b39d4c9902a65fdff4624104953d015') in 0.023209 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006938 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.172 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.7 MB.
+System memory in use after: 201.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5366.
+Total: 3.827100 ms (FindLiveObjects: 0.563300 ms CreateObjectMapping: 0.237500 ms MarkObjects: 2.995000 ms  DeleteObjects: 0.030000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 223.730674 seconds.
+  path: Assets/Scripts/Manager.cs
+  artifactKey: Guid(0171bd9d052568045a9fb0343c76dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Manager.cs using Guid(0171bd9d052568045a9fb0343c76dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b04f90e63a284defc4b95a0aa63356') in 0.008774 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.7 MB.
+System memory in use after: 201.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5370.
+Total: 4.414800 ms (FindLiveObjects: 0.502000 ms CreateObjectMapping: 0.136400 ms MarkObjects: 3.748400 ms  DeleteObjects: 0.026300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007376 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.195 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 201.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5374.
+Total: 4.002600 ms (FindLiveObjects: 0.546900 ms CreateObjectMapping: 0.128300 ms MarkObjects: 3.298300 ms  DeleteObjects: 0.027800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 201.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5378.
+Total: 4.068000 ms (FindLiveObjects: 0.748600 ms CreateObjectMapping: 0.136300 ms MarkObjects: 3.148000 ms  DeleteObjects: 0.033400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.63 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.6 MB.
+System memory in use after: 200.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5382.
+Total: 4.900900 ms (FindLiveObjects: 0.592600 ms CreateObjectMapping: 0.156400 ms MarkObjects: 4.114300 ms  DeleteObjects: 0.036100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 201.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5386.
+Total: 3.820500 ms (FindLiveObjects: 0.483100 ms CreateObjectMapping: 0.142600 ms MarkObjects: 3.167300 ms  DeleteObjects: 0.025900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 201.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5390.
+Total: 4.805700 ms (FindLiveObjects: 0.794800 ms CreateObjectMapping: 0.298600 ms MarkObjects: 3.675900 ms  DeleteObjects: 0.034400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Github Projects\Unity Projects\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.140 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.8 MB.
+System memory in use after: 201.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 5394.
+Total: 3.898600 ms (FindLiveObjects: 0.503800 ms CreateObjectMapping: 0.151500 ms MarkObjects: 3.216900 ms  DeleteObjects: 0.024700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 996.475650 seconds.
   path: Assets/Düzenlenecekler/Targets/Assasin/Assasin.fbx
   artifactKey: Guid(06c0a59266a46464abd2d62ad722afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.fbx using Guid(06c0a59266a46464abd2d62ad722afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d969a702af4ebc558536690d7812e35') in 0.034286 seconds 
+Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.fbx using Guid(06c0a59266a46464abd2d62ad722afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4539eaa5ab260226ba851c2da7d954ef') in 0.354948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Düzenlenecekler/Targets/Assasin/Assasin.png
+  artifactKey: Guid(098b4993c9d17c84cbcfae62edf3c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Assasin/Assasin.png using Guid(098b4993c9d17c84cbcfae62edf3c65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7e47d4bbb0200c95a86774083e9467') in 0.016122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.984521 seconds.
+  path: Assets/Düzenlenecekler/Targets/Bomber/Bomber.fbx
+  artifactKey: Guid(68e332b804343bb4293a9cff33726268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Bomber/Bomber.fbx using Guid(68e332b804343bb4293a9cff33726268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e071266c3ef26172f1110c88891e0d') in 0.101796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Düzenlenecekler/Targets/Bomber/Bomber.png
+  artifactKey: Guid(3a018c0cba437f64f9af01fe0320ac82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Bomber/Bomber.png using Guid(3a018c0cba437f64f9af01fe0320ac82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddd46c65c4bf5c28fc8d15b40e0448b') in 0.012109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.414190 seconds.
+  path: Assets/Düzenlenecekler/Targets/LongGuy/LongGuy.fbx
+  artifactKey: Guid(8b29cdf225923ea40bb97b668a3aa33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/LongGuy/LongGuy.fbx using Guid(8b29cdf225923ea40bb97b668a3aa33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3c70ff8ad63a57728c92c0ddbc27d6') in 0.092325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Düzenlenecekler/Targets/LongGuy/LongGuy.png
+  artifactKey: Guid(4ca124ac620b04649a93fb6cdd8caa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/LongGuy/LongGuy.png using Guid(4ca124ac620b04649a93fb6cdd8caa0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaca97e32eb58c71b02d408cbf7106f') in 0.009012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341538 seconds.
+  path: Assets/Düzenlenecekler/Targets/Skeleton/Skeleton.fbx
+  artifactKey: Guid(3e97f00000dd2c44dbeb0bdcc4f1c600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Skeleton/Skeleton.fbx using Guid(3e97f00000dd2c44dbeb0bdcc4f1c600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4b8c9eb2c3ff51bf671c93c479ef4c') in 0.083025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Düzenlenecekler/Targets/Skeleton/Skeleton.png
+  artifactKey: Guid(89cd8190c3de4ce4e8e6ff1e469fa239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Skeleton/Skeleton.png using Guid(89cd8190c3de4ce4e8e6ff1e469fa239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d898c8f3dda0e78c0c6780fe616721') in 0.009316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.278918 seconds.
+  path: Assets/Düzenlenecekler/Targets/Bomber/Materials
+  artifactKey: Guid(7da3f9c55a3ed1344b84414c42e54b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Bomber/Materials using Guid(7da3f9c55a3ed1344b84414c42e54b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65aec072fa14f87e09814705b838ee5') in 0.002096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034439 seconds.
+  path: Assets/Düzenlenecekler/Targets/Bomber/Materials/Bomber.mat
+  artifactKey: Guid(9eeb269b0f3c80f40b82d394a917238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Düzenlenecekler/Targets/Bomber/Materials/Bomber.mat using Guid(9eeb269b0f3c80f40b82d394a917238b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46bca37c42cac0a4f49a9e910364cff') in 0.012522 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

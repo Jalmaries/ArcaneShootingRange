@@ -14,17 +14,6 @@ public class TargetScore : MonoBehaviour
     public bool belly;
     public bool body;
 
-    private int gameScore;
-
-    private Text highScoreText;
-    private Text GameScoreText;
-
-    private void Start()
-    {
-        gameScore = Manager.GetComponent<Manager>().gameScore;
-        highScoreText = Manager.GetComponent<Manager>().highScoreText;
-        GameScoreText = Manager.GetComponent<Manager>().GameScoreText;
-    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -32,42 +21,42 @@ public class TargetScore : MonoBehaviour
         {
             if (head)
             {
-                gameScore += 100;
-                GameScoreText.text = gameScore.ToString();
-                if(Manager.GetComponent<Manager>().highScore < gameScore)
+                Manager.GetComponent<Manager>().gameScore += 100;
+                Manager.GetComponent<Manager>().GameScoreText.text = Manager.GetComponent<Manager>().gameScore.ToString();
+                if(Manager.GetComponent<Manager>().highScore < Manager.GetComponent<Manager>().gameScore)
                 {
-                    Manager.GetComponent<Manager>().highScore = gameScore;
-                    highScoreText.text = Manager.GetComponent<Manager>().highScore.ToString();
+                    Manager.GetComponent<Manager>().highScore = Manager.GetComponent<Manager>().gameScore;
+                    Manager.GetComponent<Manager>().highScoreText.text = Manager.GetComponent<Manager>().highScore.ToString();
                 }
             }
             else if (heart)
             {
-                GameScoreText.text = gameScore.ToString();
-                gameScore += 50;
-                if (Manager.GetComponent<Manager>().highScore < gameScore)
+                Manager.GetComponent<Manager>().gameScore += 50;
+                Manager.GetComponent<Manager>().GameScoreText.text = Manager.GetComponent<Manager>().gameScore.ToString();
+                if (Manager.GetComponent<Manager>().highScore < Manager.GetComponent<Manager>().gameScore)
                 {
-                    Manager.GetComponent<Manager>().highScore = gameScore;
-                    highScoreText.text = Manager.GetComponent<Manager>().highScore.ToString();
+                    Manager.GetComponent<Manager>().highScore = Manager.GetComponent<Manager>().gameScore;
+                    Manager.GetComponent<Manager>().highScoreText.text = Manager.GetComponent<Manager>().highScore.ToString();
                 }
             }
             else if (belly)
             {
-                gameScore += 45;
-                GameScoreText.text = gameScore.ToString();
-                if (Manager.GetComponent<Manager>().highScore < gameScore)
+                Manager.GetComponent<Manager>().gameScore += 45;
+                Manager.GetComponent<Manager>().GameScoreText.text = Manager.GetComponent<Manager>().gameScore.ToString();
+                if (Manager.GetComponent<Manager>().highScore < Manager.GetComponent<Manager>().gameScore)
                 {
-                    Manager.GetComponent<Manager>().highScore = gameScore;
-                    highScoreText.text = Manager.GetComponent<Manager>().highScore.ToString();
+                    Manager.GetComponent<Manager>().highScore = Manager.GetComponent<Manager>().gameScore;
+                    Manager.GetComponent<Manager>().highScoreText.text = Manager.GetComponent<Manager>().highScore.ToString();
                 }
             }
             else if (body)
             {
-                gameScore += 5;
-                GameScoreText.text = gameScore.ToString();
-                if (Manager.GetComponent<Manager>().highScore < gameScore)
+                Manager.GetComponent<Manager>().gameScore += 5;
+                Manager.GetComponent<Manager>().GameScoreText.text = Manager.GetComponent<Manager>().gameScore.ToString();
+                if (Manager.GetComponent<Manager>().highScore < Manager.GetComponent<Manager>().gameScore)
                 {
-                    Manager.GetComponent<Manager>().highScore = gameScore;
-                    highScoreText.text = Manager.GetComponent<Manager>().highScore.ToString();
+                    Manager.GetComponent<Manager>().highScore = Manager.GetComponent<Manager>().gameScore;
+                    Manager.GetComponent<Manager>().highScoreText.text = Manager.GetComponent<Manager>().highScore.ToString();
                 }
             }
 
@@ -76,7 +65,7 @@ public class TargetScore : MonoBehaviour
 
     private void OnDisable()//If target wont deactivate, place a gameObject to target, disable that object
     {
-        gameScore = 0;
+        Manager.GetComponent<Manager>().gameScore = 0;
     }
 
 
