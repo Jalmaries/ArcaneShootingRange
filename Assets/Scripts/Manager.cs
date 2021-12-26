@@ -9,8 +9,8 @@ public class Manager : MonoBehaviour
     /*Add:
      * in-game start, pause buttons
      * end game UI (will show score)
-     * High score system (Bugged)
      * Bug Solving: Reset every (or necessary) values on app-quit or start to prevent bugs.
+     * Bug: Score text resets but the value is not when new game starts
     */
 
     #region All UI
@@ -72,8 +72,8 @@ public class Manager : MonoBehaviour
     //Targets
     public GameObject sphereTarget;
     //Guns
-    public GameObject GunRiffle;
-    public GameObject GunInfinite;
+    //public GameObject GunRiffle;
+    public GameObject PowdersPistol;
 
     private bool gameStartShot = false;
     #endregion
@@ -327,14 +327,19 @@ public class Manager : MonoBehaviour
         //InvokeRepeating("polygonGameCountdownTime", 3, 1);//Function, wait, repeat value (Polygon Game Timer)
 
         //Guns
-        GunInfinite.SetActive(true);
-        GunInfinite.GetComponent<Rigidbody>().isKinematic = true;
-        GunInfinite.GetComponent<Rigidbody>().isKinematic = false;
+        PowdersPistol.SetActive(true);
+        PowdersPistol.GetComponent<Rigidbody>().isKinematic = true;
+        PowdersPistol.GetComponent<Rigidbody>().isKinematic = false;
+
+        /*
         GunRiffle.SetActive(true);
         GunRiffle.GetComponent<Rigidbody>().isKinematic = true;
         GunRiffle.GetComponent<Rigidbody>().isKinematic = false;
+        */
+
         //reset riffle ammo and animation
         //GunRiffle.GetComponent<BNG.RaycastWeapon>().InternalAmmo = 30;
+
         //Targets (add all targets here)
         sphereTarget.SetActive(true);
         
@@ -357,14 +362,16 @@ public class Manager : MonoBehaviour
             //disable all target, guns etc. and reset their position
             sphereTarget.SetActive(false);
             //targets will return start position from their script
+            /*
             GunRiffle.SetActive(false);
             GunRiffle.transform.position = new Vector3(59.5f, -0.2f, -9);
-            GunInfinite.SetActive(false);
-            GunInfinite.transform.position = new Vector3(60.5f, -0.2f, -9);
+            */
+            PowdersPistol.SetActive(false);
+            PowdersPistol.transform.position = new Vector3(60.5f, -0.2f, -9);
             //
             gameStartShot = false;//Reset first shot - game start value for next game
             //Score
-            gameScore = 0;//Reset "gameScoer" when game finished
+            gameScore = 0;//Reset "gameScore" when game finished
             GameScoreText.text = gameScore.ToString();//Reset Score text when game finished
             PlayerPrefs.SetInt("High_Score", highScore);
         }
@@ -409,4 +416,8 @@ public class Manager : MonoBehaviour
         Debug.Log(PlayerPrefs.GetInt("High_Score"));
     }
 
+    private void Update()
+    {
+        //Debug.Log(gameScore);
+    }
 }

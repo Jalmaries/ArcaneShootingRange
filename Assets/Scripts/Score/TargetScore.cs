@@ -73,4 +73,11 @@ public class TargetScore : MonoBehaviour
 
         }
     }
+
+    private void OnDisable()//If target wont deactivate, place a gameObject to target, disable that object
+    {
+        gameScore = 0;
+    }
+
+
 }
