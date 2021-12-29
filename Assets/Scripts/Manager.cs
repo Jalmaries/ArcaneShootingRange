@@ -23,6 +23,7 @@ public class Manager : MonoBehaviour
     public GameObject PolygonMainMenuUI;
     public GameObject PolygonTimerUI;
     public GameObject ScoreUI;
+    public GameObject polygonPauseMenuUI;
     #endregion
 
     #region Turn Toggles
@@ -58,6 +59,10 @@ public class Manager : MonoBehaviour
     #region Buttons
     public GameObject toMainMenuButton;
     public GameObject polygonReturnButton;
+    public GameObject polygonPauseMenuContinueButton;
+    public GameObject polygonPauseMenuPauseButton;
+    public GameObject polygonPauseMenuToMainMenuButton;
+    public GameObject polygonPauseMenuSettingsToPauseMenuButton;
     #endregion
 
     public GameObject PlayerController;
@@ -75,9 +80,12 @@ public class Manager : MonoBehaviour
     public GameObject Bomber;
     public GameObject LongGuy;
     public GameObject Skeleton;
+
     //Guns
     //public GameObject GunRiffle;
     public GameObject PowdersPistol;
+    //Texts
+    public GameObject polygonPAUSEDText;
 
     private bool gameStartShot = false;
     #endregion
@@ -88,6 +96,9 @@ public class Manager : MonoBehaviour
     public int highScore;//High score. Will be shown in display as high score. Will be saved when quiting or finisihng the game.
     public Text GameScoreText;
     public Text highScoreText;
+
+    //Targets points colliders
+    public List<GameObject> targetsPointsColliders = new List<GameObject>();
 
     private void Start()
     {
@@ -291,7 +302,7 @@ public class Manager : MonoBehaviour
         //Summary: When pressed "Settings" button in polygon area from Polygon Main Menu, change location and size of the SettingsMenuUI.
 
         PolygonMainMenuUI.SetActive(false);
-        SettingsMenuUI.transform.position = new Vector3(60, 1, -9);
+        SettingsMenuUI.transform.position = new Vector3(60, 1, -6);
         SettingsMenuUI.transform.localScale = new Vector3(0.005f, 0.005f, 1);
         SettingsMenuUI.SetActive(true);
 
@@ -315,6 +326,7 @@ public class Manager : MonoBehaviour
         SettingsMenuUI.transform.localScale = new Vector3(0.0018f, 0.0018f, 2);
         toMainMenuButton.SetActive(true);
         polygonReturnButton.SetActive(false);
+
         XRRig.transform.position = new Vector3(0, 0, -2);
         PlayMenuUI.SetActive(false);
         MainMenuUI.SetActive(true);
@@ -345,6 +357,9 @@ public class Manager : MonoBehaviour
         Bomber.SetActive(true);
         LongGuy.SetActive(true);
         Skeleton.SetActive(true);
+
+        //Pause Menu
+        polygonPauseMenuUI.SetActive(true);
     }
 
     private void polygonGameCountdownTime()//when Polygon Game started in polygon area with first shot (In Development)
@@ -369,16 +384,125 @@ public class Manager : MonoBehaviour
             Skeleton.SetActive(false);
             //targets will return start position from their script
             PowdersPistol.SetActive(false);
-            PowdersPistol.transform.position = new Vector3(60.5f, -0.2f, -9);
+            PowdersPistol.transform.position = new Vector3(60, -0.2f, -9);
             //
             gameStartShot = false;//Reset first shot - game start value for next game
             //Score
             gameScore = 0;//Reset "gameScore" when game finished
             GameScoreText.text = gameScore.ToString();//Reset Score text when game finished
             PlayerPrefs.SetInt("High_Score", highScore);
+            //Pause Menu
+            polygonPauseMenuUI.SetActive(false);
+            SettingsMenuUI.SetActive(false);
         }
     }
 
+    //polygon pause menu will activate when game starts and will be disable when game finishes
+    public void PolygonPauseMenuPauseButton()//In development
+    {
+        /*
+         * disable pasue button and activate continue button +
+         * activate paused text +
+         * time.timescale = 0 (this should stop timer) +
+         * disable the targets points colliders +
+         * activate toMainMenu Button +
+        */
+
+        polygonPauseMenuPauseButton.SetActive(false);
+        polygonPauseMenuContinueButton.SetActive(true);
+
+        polygonPAUSEDText.SetActive(true);
+
+        for(int i = 0; i < targetsPointsColliders.Count; i++)
+        {
+            targetsPointsColliders[i].SetActive(false);
+        }
+        //targetsPointsColliders.SetActive(false);
+
+        polygonPauseMenuToMainMenuButton.SetActive(true);
+
+        Time.timeScale = 0;
+
+    }
+    public void PolygonPauseMenuContinueButton()//In development
+    {
+        /*
+         * disable continue button and acitvate pause button +
+         * disable paused text +
+         * time.timescale = 1 (this should resume the timer) +
+         * activate targets points colliders +
+         * deactivate toMainMenu Button +
+         */
+        polygonPauseMenuPauseButton.SetActive(true);
+        polygonPauseMenuContinueButton.SetActive(false);
+
+        polygonPAUSEDText.SetActive(false);
+
+        for (int i = 0; i < targetsPointsColliders.Count; i++)
+        {
+            targetsPointsColliders[i].SetActive(true);
+        }
+        //targetsPointsColliders.SetActive(true);
+
+        polygonPauseMenuToMainMenuButton.SetActive(false);
+
+        Time.timeScale = 1;
+    }
+
+    public void polygonPauseMenuSettingsButton()//In development
+    {
+        /*
+         * disable polygon pause menu +
+         * activate settings menu +
+         * change position and scale of the settings menu (add return button for pasue menu) +
+         */
+        polygonPauseMenuUI.SetActive(false);
+        SettingsMenuUI.SetActive(true);
+        SettingsMenuUI.transform.position = new Vector3(56, 1, -10);
+        SettingsMenuUI.transform.localScale = new Vector3(0.005f, 0.005f, 1);
+        SettingsMenuUI.transform.localRotation = Quaternion.Euler(0, -90, 0);
+        toMainMenuButton.SetActive(false);
+        polygonReturnButton.SetActive(false);
+        polygonPauseMenuToMainMenuButton.SetActive(true);
+        polygonPauseMenuSettingsToPauseMenuButton.SetActive(true);
+    }
+
+    public void PolygonPauseMenuToMainMenuButton()//In development (add another button to settings menu UI for pause menu)
+    {
+        /*
+         * disable settings menu
+         * activate main menu
+         * change position of XRRig to main area
+         * stop game and bugfix
+         * time.timescale = 1
+         */
+        SettingsMenuUI.SetActive(false);
+        SettingsMenuUI.transform.position = new Vector3(0, 0, 0.23f);
+        SettingsMenuUI.transform.localScale = new Vector3(0.0018f, 0.0018f, 2);
+        SettingsMenuUI.transform.localRotation = Quaternion.Euler(0, 0, 0);
+        PolygonMainMenuUI.SetActive(true);
+        MainMenuUI.SetActive(true);
+        PlayMenuUI.SetActive(false);
+        XRRig.transform.position = new Vector3(0, 0, -2);
+        Time.timeScale = 1;
+        polygongameCountdownValue = 0;
+        Invoke("polygonGameCountdownTime", 0);
+        polygonArea.SetActive(false);
+        polygonPAUSEDText.SetActive(false);
+        polygonPauseMenuContinueButton.SetActive(false);
+        polygonPauseMenuPauseButton.SetActive(true);
+        polygonPauseMenuToMainMenuButton.SetActive(false);
+    }
+
+    public void PolygonPauseMenuSettingsToPauseMenuButton()
+    {
+        /*
+         * deactivate settings menu UI
+         * activate pause menu UI
+         */
+        SettingsMenuUI.SetActive(false);
+        polygonPauseMenuUI.SetActive(true);
+    }
 
     #endregion
 
