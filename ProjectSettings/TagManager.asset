@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bullet
   - Projectile
+  - Pistol
   layers:
   - Default
   - TransparentFX

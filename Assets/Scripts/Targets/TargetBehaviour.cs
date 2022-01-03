@@ -12,17 +12,26 @@ public class TargetBehaviour : MonoBehaviour
 
     public Ease targetMoveAnimation;
 
-    public Vector3 startPosition;
+    //public Vector3 startPosition;
+
+    public int HP = 5;//Use for editor Only.
+    public int scriptOnlyHp;//Use for script only. Will equal public HP.
+
 
     private void Awake()
     {
-        this.gameObject.transform.DOPath(path, duration, pathType, pathMode, 5, Color.red)
+        scriptOnlyHp = HP;
+        Debug.Log(scriptOnlyHp + "Awake");
+
+        this.gameObject.transform.DOPath(path, duration, pathType, pathMode, 30, Color.red)
+            .SetEase(targetMoveAnimation)
             .SetLoops(-1);
     }
 
+    /*
     private void OnDisable()
     {
         gameObject.transform.position = startPosition;
     }
-
+    */
 }
