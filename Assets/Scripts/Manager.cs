@@ -360,6 +360,11 @@ public class Manager : MonoBehaviour
 
         //Pause Menu
         polygonPauseMenuUI.SetActive(true);
+
+
+        //Score
+        gameScore = 0;//Reset "gameScore" when game finished----------------------------------------
+        GameScoreText.text = gameScore.ToString();//Reset Score text when game finished
     }
 
     private void polygonGameCountdownTime()//when Polygon Game started in polygon area with first shot (In Development)
@@ -388,8 +393,10 @@ public class Manager : MonoBehaviour
             //
             gameStartShot = false;//Reset first shot - game start value for next game
             //Score
-            gameScore = 0;//Reset "gameScore" when game finished
-            GameScoreText.text = gameScore.ToString();//Reset Score text when game finished
+
+            //gameScore = 0;//Reset "gameScore" when game finished----------------------------------------
+            //GameScoreText.text = gameScore.ToString();//Reset Score text when game finished
+
             PlayerPrefs.SetInt("High_Score", highScore);
             //Pause Menu
             polygonPauseMenuUI.SetActive(false);
