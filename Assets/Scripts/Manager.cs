@@ -75,7 +75,6 @@ public class Manager : MonoBehaviour
     public int polygonGameCountdownValue;//Set in Editor
     private int polygongameCountdownValue;//Used for script only (will be equal to "polygonGameCountdownValue")
     //Targets
-    public GameObject sphereTarget;
     public GameObject Assassin;
     public GameObject Bomber;
     public GameObject LongGuy;
@@ -352,11 +351,16 @@ public class Manager : MonoBehaviour
         //GunRiffle.GetComponent<BNG.RaycastWeapon>().InternalAmmo = 30;
 
         //Targets (add all targets here)
-        sphereTarget.SetActive(true);
         Assassin.SetActive(true);
         Bomber.SetActive(true);
         LongGuy.SetActive(true);
         Skeleton.SetActive(true);
+        //Target HP (Refresh targets hp) (added with new targets!!!!!!!!!!!!!!!)
+        Assassin.GetComponent<TargetBehaviour>().scriptOnlyHp = Assassin.GetComponent<TargetBehaviour>().HP;
+        Bomber.GetComponent<TargetBehaviour>().scriptOnlyHp = Bomber.GetComponent<TargetBehaviour>().HP;
+        LongGuy.GetComponent<TargetBehaviour>().scriptOnlyHp = LongGuy.GetComponent<TargetBehaviour>().HP;
+        Skeleton.GetComponent<TargetBehaviour>().scriptOnlyHp = Skeleton.GetComponent<TargetBehaviour>().HP;
+
 
         //Pause Menu
         polygonPauseMenuUI.SetActive(true);
@@ -382,14 +386,13 @@ public class Manager : MonoBehaviour
             Invoke("activateGameMenuUI", 2);//Calling 2 sec later to prevent accident cliks on UI
             PolygonTimerUI.SetActive(false);
             //disable all target, guns etc. and reset their position
-            sphereTarget.SetActive(false);
             Assassin.SetActive(false);
             Bomber.SetActive(false);
             LongGuy.SetActive(false);
             Skeleton.SetActive(false);
             //targets will return start position from their script
             PowdersPistol.SetActive(false);
-            PowdersPistol.transform.position = new Vector3(60, -0.2f, -9);
+            PowdersPistol.transform.position = new Vector3(60, 0.26f, -8.8f);
             //
             gameStartShot = false;//Reset first shot - game start value for next game
             //Score

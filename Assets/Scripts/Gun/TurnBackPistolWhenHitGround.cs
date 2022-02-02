@@ -11,7 +11,7 @@ public class TurnBackPistolWhenHitGround : MonoBehaviour
     {
         if(collision.gameObject == pistol)
         {
-            pistol.gameObject.transform.position = new Vector3(60, -0.2f, -9);
+            pistol.gameObject.transform.position = new Vector3(60, 0.26f, -8.8f);
             pistol.gameObject.GetComponent<Rigidbody>().isKinematic = true;
             pistol.gameObject.GetComponent<Rigidbody>().isKinematic = false;
         }
