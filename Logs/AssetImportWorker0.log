@@ -1,309 +1,51 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.0f1 (61a549675243) revision 6399305'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 22000.434; Version 2009; 64bit' Language: 'en' Physical Memory: 16240 MB
+OS: 'Windows 10 Pro; OS build 19044.1466; Version 2009; 64bit' Language: 'tr' Physical Memory: 16318 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2021.1.0f1\Editor\Unity.exe
+E:\Unity Editors\2021.1.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GitHub/ArcaneShootingRange
+E:/Github Projects/Unity Projects/ArcaneShootingRange
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60814
-Successfully changed project path to: D:/GitHub/ArcaneShootingRange
-D:/GitHub/ArcaneShootingRange
+64473
+Successfully changed project path to: E:/Github Projects/Unity Projects/ArcaneShootingRange
+E:/Github Projects/Unity Projects/ArcaneShootingRange
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 182.04 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 3.24 ms.
+Refreshing native plugins compatible for Editor in 538.72 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 13.25 ms.
 Initialize engine version: 2021.1.0f1 (61a549675243)
-[Subsystems] Discovering subsystems at path D:/Unity/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub/ArcaneShootingRange/Assets
+[Subsystems] Discovering subsystems at path E:/Unity Editors/2021.1.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Github Projects/Unity Projects/ArcaneShootingRange/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   NVIDIA
-    VRAM:     5980 MB
-    Driver:   30.0.15.1123
+    VRAM:     6052 MB
+    Driver:   30.0.14.9649
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'D:/Unity/2021.1.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Mono path[0] = 'E:/Unity Editors/2021.1.0f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity Editors/2021.1.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001613 seconds.
+Register platform support module: E:/Unity Editors/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001796 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 188.02 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 303.82 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.923 seconds
+- Completed reload, in 17.595 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011032 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 183.50 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to register display lifecyle provider: [1]
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\GitHub\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\ArcaneShootingRange\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.972 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 4764 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.4 MB.
-System memory in use after: 185.4 MB.
-
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 5216.
-Total: 4.464300 ms (FindLiveObjects: 0.426200 ms CreateObjectMapping: 0.294800 ms MarkObjects: 3.652800 ms  DeleteObjects: 0.089100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Düzenlenecekler/Environment/Base
-  artifactKey: Guid(695c1d4eec7c3ba419d554a894485802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base using Guid(695c1d4eec7c3ba419d554a894485802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab1531da26218d781359a1709d73a09') in 0.018106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.382043 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base.fbx
-  artifactKey: Guid(0b9506963760d2a4489c034838835f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base.fbx using Guid(0b9506963760d2a4489c034838835f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed8e8df2d5c5ec046528b1a5442b716') in 0.668342 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Window_Normal.png
-  artifactKey: Guid(4516597b09bb04e4e972d8d2003a46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Window_Normal.png using Guid(4516597b09bb04e4e972d8d2003a46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a9a34832ad463dbed36dc9b5d596e7') in 0.042454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Wall_BaseMap.png
-  artifactKey: Guid(d7c90d8d8c79a2b4b90d5dbe1dbd45df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Wall_BaseMap.png using Guid(d7c90d8d8c79a2b4b90d5dbe1dbd45df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718489df649b9160cbfb7438c43d8a0b') in 0.017705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_WindowPanels_BaseMap.png
-  artifactKey: Guid(18d95388a435e39469f40269f6558c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_WindowPanels_BaseMap.png using Guid(18d95388a435e39469f40269f6558c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de121497353f2757703f936178de729') in 0.017134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Wall_MaskMap.png
-  artifactKey: Guid(bdd141ad921fb544cb03c0c5fd4cfb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Wall_MaskMap.png using Guid(bdd141ad921fb544cb03c0c5fd4cfb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7776a9e382c2fb8a818199bdbe127979') in 0.029904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Roof_Normal.png
-  artifactKey: Guid(fef78ae0eb6037845ae6418796f024fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Roof_Normal.png using Guid(fef78ae0eb6037845ae6418796f024fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95360a2994c3bca6fa6a9b5d25383cb1') in 0.021803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Roof_MaskMap.png
-  artifactKey: Guid(ab06894dc3e634447a53220d2706fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Roof_MaskMap.png using Guid(ab06894dc3e634447a53220d2706fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ace97db684713e5adda07f6b574f87') in 0.018689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_RoofWall_BaseMap.png
-  artifactKey: Guid(8cdc534af1846c24cb55bc2cfb863fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_RoofWall_BaseMap.png using Guid(8cdc534af1846c24cb55bc2cfb863fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2d59cab83e761c7527d127870e2230') in 0.019375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Floor_MaskMap.png
-  artifactKey: Guid(d26c6e356373a364982071c4ef7795dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Floor_MaskMap.png using Guid(d26c6e356373a364982071c4ef7795dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca02cca4d1bccfd5e4568069bedd30a') in 0.017890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Floor_Normal.png
-  artifactKey: Guid(198869b93bc11ce4ead95c5a6eb68ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Floor_Normal.png using Guid(198869b93bc11ce4ead95c5a6eb68ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4452e9a29f67e82ded400098a0645376') in 0.020162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Window_MaskMap.png
-  artifactKey: Guid(dcd10b18034764849976ec6083c7ecb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Window_MaskMap.png using Guid(dcd10b18034764849976ec6083c7ecb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c78596dbf53769c3bd19f89af6160bf') in 0.019018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_RoofWall_Normal.png
-  artifactKey: Guid(e5b80da8651c01f4c8e95c6f8727952e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_RoofWall_Normal.png using Guid(e5b80da8651c01f4c8e95c6f8727952e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03c518c1be90e7bb4d72dbcdc3547f4') in 0.017174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Window_BaseMap.png
-  artifactKey: Guid(3e15d449ec238344c9d449d5e5064566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Window_BaseMap.png using Guid(3e15d449ec238344c9d449d5e5064566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28daaef32bc53709206cd78387e3ed19') in 0.017991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_WindowPanels_Normal.png
-  artifactKey: Guid(d8fa4a5f64a09be4482bf2e0fdb4b01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_WindowPanels_Normal.png using Guid(d8fa4a5f64a09be4482bf2e0fdb4b01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd2cbe1cfbc95ad110c707c36d0f93f') in 0.019938 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_WindowPanels_MaskMap.png
-  artifactKey: Guid(e802319b2a9896a4ea008ef8eff7808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_WindowPanels_MaskMap.png using Guid(e802319b2a9896a4ea008ef8eff7808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afda9db5d114fb68225099e2b8c426ec') in 0.023612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_RoofWall_MaskMap.png
-  artifactKey: Guid(75db4d44c6f51c44f9cec7fdc10f0d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_RoofWall_MaskMap.png using Guid(75db4d44c6f51c44f9cec7fdc10f0d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7264d0f52287b6bdbf6783a6689017e9') in 0.023139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Wall_Normal.png
-  artifactKey: Guid(83de3f02f24a7e849adc1f20406dd4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Wall_Normal.png using Guid(83de3f02f24a7e849adc1f20406dd4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148622bf2c16ed9356ec53f08032c1c8') in 0.018081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Floor_BaseMap.png
-  artifactKey: Guid(640277cc838049140a4e5da37d15e9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Floor_BaseMap.png using Guid(640277cc838049140a4e5da37d15e9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c5d5dff70486399e14f096a6de8dea') in 0.017666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Roof_BaseMap.png
-  artifactKey: Guid(a75d3f463c7b0a94397ab1b9692db945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Roof_BaseMap.png using Guid(a75d3f463c7b0a94397ab1b9692db945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df581cfb9b8fc9e78d029795a0adbe0a') in 0.017900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 51.135147 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Floor.mat
-  artifactKey: Guid(e8cd447e681a3c24b87b15ad3752526d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Floor.mat using Guid(e8cd447e681a3c24b87b15ad3752526d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16cb33624cd185063693ddc0d704699') in 0.025128 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.816800 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Roof.mat
-  artifactKey: Guid(e629adf3a75faae47927c06eed5a854c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Roof.mat using Guid(e629adf3a75faae47927c06eed5a854c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d53a9b40d610a370edfa14abd4a861') in 0.014454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.163260 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Roof Wall.mat
-  artifactKey: Guid(8e471ee6e7e8c134bb79d5295e9c4681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Roof Wall.mat using Guid(8e471ee6e7e8c134bb79d5295e9c4681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558e40a55ff8e10717e9ded85225e296') in 0.014340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.859305 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Wall.mat
-  artifactKey: Guid(277cc1f6a03e0674f858aaa6d7aaa9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Wall.mat using Guid(277cc1f6a03e0674f858aaa6d7aaa9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5f51dbc9364a6cd8a652fd129362d0') in 0.014039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.491356 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Window.mat
-  artifactKey: Guid(ca9826e40bc7ffc4091cca070512b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Window.mat using Guid(ca9826e40bc7ffc4091cca070512b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c6a1fb38269eaee4e91bcacd65d187') in 0.637007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.011304 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Window Panels.mat
-  artifactKey: Guid(808218e3bf08a4741862bc6e8c6797b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Window Panels.mat using Guid(808218e3bf08a4741862bc6e8c6797b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5a27b5568d3cabf584e38988db270d') in 0.014241 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.077796 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Floor_Normal.png
-  artifactKey: Guid(198869b93bc11ce4ead95c5a6eb68ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Floor_Normal.png using Guid(198869b93bc11ce4ead95c5a6eb68ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0677b01b1c91ec548f97a5f667a009d') in 0.043424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Window_Normal.png
-  artifactKey: Guid(4516597b09bb04e4e972d8d2003a46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Window_Normal.png using Guid(4516597b09bb04e4e972d8d2003a46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ea3d3f59a72fbb775754a00cdd2154') in 0.034546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Roof_Normal.png
-  artifactKey: Guid(fef78ae0eb6037845ae6418796f024fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Roof_Normal.png using Guid(fef78ae0eb6037845ae6418796f024fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537c461044f9a3b5b334a1ace34984eb') in 0.019573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_RoofWall_Normal.png
-  artifactKey: Guid(e5b80da8651c01f4c8e95c6f8727952e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_RoofWall_Normal.png using Guid(e5b80da8651c01f4c8e95c6f8727952e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c06b0f8af12922f763efad519de83bb') in 0.016350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_WindowPanels_Normal.png
-  artifactKey: Guid(d8fa4a5f64a09be4482bf2e0fdb4b01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_WindowPanels_Normal.png using Guid(d8fa4a5f64a09be4482bf2e0fdb4b01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1e640e118e5b2f70ca280478b72d22') in 0.018581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Base_Wall_Normal.png
-  artifactKey: Guid(83de3f02f24a7e849adc1f20406dd4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Base_Wall_Normal.png using Guid(83de3f02f24a7e849adc1f20406dd4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4667a58bf541dc720ef6d61b852dd4b1') in 0.018764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 282.497011 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Floor.mat
-  artifactKey: Guid(e8cd447e681a3c24b87b15ad3752526d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Floor.mat using Guid(e8cd447e681a3c24b87b15ad3752526d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1ad91b9e36893406300a7f5b324c12') in 0.038573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Wall.mat
-  artifactKey: Guid(277cc1f6a03e0674f858aaa6d7aaa9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Wall.mat using Guid(277cc1f6a03e0674f858aaa6d7aaa9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0f85e397484d35a75121ea0b47eca5') in 0.042546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Window Panels.mat
-  artifactKey: Guid(808218e3bf08a4741862bc6e8c6797b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Window Panels.mat using Guid(808218e3bf08a4741862bc6e8c6797b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab26220d2fb48fed2734afd1f89de3e') in 0.027115 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Roof Wall.mat
-  artifactKey: Guid(8e471ee6e7e8c134bb79d5295e9c4681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Roof Wall.mat using Guid(8e471ee6e7e8c134bb79d5295e9c4681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe404fc8836ab1c1f9e9663d33795ec') in 0.025368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Roof.mat
-  artifactKey: Guid(e629adf3a75faae47927c06eed5a854c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Roof.mat using Guid(e629adf3a75faae47927c06eed5a854c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166695038e5bc44a1efc2f1683db80ff') in 0.032688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Düzenlenecekler/Environment/Base/Window.mat
-  artifactKey: Guid(ca9826e40bc7ffc4091cca070512b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Düzenlenecekler/Environment/Base/Window.mat using Guid(ca9826e40bc7ffc4091cca070512b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f24c2ce0a953c631e5542c56046f5b') in 0.028901 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.148212 seconds.

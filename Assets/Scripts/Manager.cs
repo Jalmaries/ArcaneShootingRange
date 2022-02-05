@@ -512,6 +512,7 @@ public class Manager : MonoBehaviour
          */
         SettingsMenuUI.SetActive(false);
         polygonPauseMenuUI.SetActive(true);
+        MainMenuUI.SetActive(true);
     }
 
     #endregion
