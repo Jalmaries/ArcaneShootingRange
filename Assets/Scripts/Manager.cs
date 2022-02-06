@@ -13,7 +13,6 @@ public class Manager : MonoBehaviour
      * Bug: Score text resets but the value is not when new game starts
     */
 
-    #region All UI
 
 
     #region Main UI's
@@ -80,6 +79,12 @@ public class Manager : MonoBehaviour
     public GameObject LongGuy;
     public GameObject Skeleton;
 
+    public GameObject Assassin2;
+    public GameObject Bomber2;
+    public GameObject LongGuy2;
+    public GameObject Skeleton2;
+
+
     //Guns
     //public GameObject GunRiffle;
     public GameObject PowdersPistol;
@@ -120,6 +125,7 @@ public class Manager : MonoBehaviour
         //highScoreText.text = highScore.ToString();
     }
 
+    #region Buttons
     public void playButton()//when pressed play button
     {
         //Summary: when play button pressed, deactivate "Main Menu UI" then activate "Play Menu UI".
@@ -173,7 +179,9 @@ public class Manager : MonoBehaviour
         PlayMenuUI.SetActive(false);
         //Activate Box Machine Game area
     }
+    #endregion
 
+    #region Toggles
     public void SnapTurnTogle()//when pressed "Snap Turn" togle bool
     {
         //Summary: when "Snap Turn" togle pressed, activate "Snap Turn" togle, then deactivate "Smooth Turn" togle (Make deactivated toggles alpha value less then 1).
@@ -295,7 +303,9 @@ public class Manager : MonoBehaviour
 
         PlayerController.GetComponent<BNG.PlayerRotation>().SmoothTurnSpeed = 60;
     }
+    #endregion
 
+    #region Buttons2
     public void polygonSettingsButton()//when "Settings" button pressed in polygon area
     {
         //Summary: When pressed "Settings" button in polygon area from Polygon Main Menu, change location and size of the SettingsMenuUI.
@@ -355,11 +365,21 @@ public class Manager : MonoBehaviour
         Bomber.SetActive(true);
         LongGuy.SetActive(true);
         Skeleton.SetActive(true);
+
+        Assassin2.SetActive(true);
+        Bomber2.SetActive(true);
+        LongGuy2.SetActive(true);
+        Skeleton2.SetActive(true);
         //Target HP (Refresh targets hp) (added with new targets!!!!!!!!!!!!!!!)
         Assassin.GetComponent<TargetBehaviour>().scriptOnlyHp = Assassin.GetComponent<TargetBehaviour>().HP;
         Bomber.GetComponent<TargetBehaviour>().scriptOnlyHp = Bomber.GetComponent<TargetBehaviour>().HP;
         LongGuy.GetComponent<TargetBehaviour>().scriptOnlyHp = LongGuy.GetComponent<TargetBehaviour>().HP;
         Skeleton.GetComponent<TargetBehaviour>().scriptOnlyHp = Skeleton.GetComponent<TargetBehaviour>().HP;
+
+        Assassin2.GetComponent<TargetBehaviour>().scriptOnlyHp = Assassin2.GetComponent<TargetBehaviour>().HP;
+        Bomber2.GetComponent<TargetBehaviour>().scriptOnlyHp = Bomber2.GetComponent<TargetBehaviour>().HP;
+        LongGuy2.GetComponent<TargetBehaviour>().scriptOnlyHp = LongGuy2.GetComponent<TargetBehaviour>().HP;
+        Skeleton2.GetComponent<TargetBehaviour>().scriptOnlyHp = Skeleton2.GetComponent<TargetBehaviour>().HP;
 
 
         //Pause Menu
@@ -370,6 +390,7 @@ public class Manager : MonoBehaviour
         gameScore = 0;//Reset "gameScore" when game finished----------------------------------------
         GameScoreText.text = gameScore.ToString();//Reset Score text when game finished
     }
+    #endregion
 
     private void polygonGameCountdownTime()//when Polygon Game started in polygon area with first shot (In Development)
     {
@@ -390,6 +411,11 @@ public class Manager : MonoBehaviour
             Bomber.SetActive(false);
             LongGuy.SetActive(false);
             Skeleton.SetActive(false);
+
+            Assassin2.SetActive(false);
+            Bomber2.SetActive(false);
+            LongGuy2.SetActive(false);
+            Skeleton2.SetActive(false);
             //targets will return start position from their script
             PowdersPistol.SetActive(false);
             PowdersPistol.transform.position = new Vector3(60, 0.26f, -8.8f);
@@ -406,6 +432,8 @@ public class Manager : MonoBehaviour
             SettingsMenuUI.SetActive(false);
         }
     }
+
+    #region Buttons3
 
     //polygon pause menu will activate when game starts and will be disable when game finishes
     public void PolygonPauseMenuPauseButton()//In development
