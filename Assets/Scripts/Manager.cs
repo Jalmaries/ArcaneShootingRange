@@ -451,10 +451,14 @@ public class Manager : MonoBehaviour
 
         polygonPAUSEDText.SetActive(true);
 
+
+        /*
         for(int i = 0; i < targetsPointsColliders.Count; i++)
         {
             targetsPointsColliders[i].SetActive(false);
         }
+        */
+
         //targetsPointsColliders.SetActive(false);
 
         polygonPauseMenuToMainMenuButton.SetActive(true);
